@@ -22,5 +22,5 @@
   --font-heading: var(--font-oxanium);
   --font-sans: var(--font-montserrat); 
 
-  
+  --radius-xl: 0.625rem;
 }
