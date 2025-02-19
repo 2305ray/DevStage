@@ -1,5 +1,6 @@
 @import "tailwindcss";
 
+
 @theme { // Criar variaveis
  --color-*: initial;
 
@@ -19,7 +20,7 @@
   --color-gray-900: #0F1216;
 
   --font-heading: var(--font-oxanium);
-  --font-sans: var(--font-montserrat);
+  --font-sans: var(--font-montserrat); //fonte padrão
 
-  --radius-xl: 0.625rem;
+  
 }
