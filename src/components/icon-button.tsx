@@ -1,16 +1,12 @@
-import { type ComponentProps, ReactNode } from 'react'
+import type { ComponentProps } from 'react'
 
-interface IconButtoProps extends ComponentProps<'button'> {
-  // children: ReactNode, não é necessario, pq o button ja espera q passe algo dentro dele
-}
+interface ButtonProps extends ComponentProps<'button'> {}
 
-export function IconButton(props: IconButtoProps) {
+export function IconButton(props: ButtonProps) {
   return (
     <button
-      className="p-1.5 bg-gray-500 text-blue rounded-md   cursor-pointer transition-colors duration-300 hover:bg-blue hover:text-gray-700"
+      className="p-1.5 bg-gray-500 text-blue rounded-md cursor-pointer transition-colors duration-300 hover:bg-blue hover:text-gray-900"
       {...props}
     />
-    //     {props.children}
-    // </button>
   )
 }
