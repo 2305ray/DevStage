@@ -1,11 +1,13 @@
 'use client'
 
-import { Button } from '@/components/button'
-import { InputField, InputIcon, InputRoot } from '@/components/input'
+import { subscribeToEvent } from '@/http/api'
 import { zodResolver } from '@hookform/resolvers/zod'
 import { ArrowRight, Mail, User } from 'lucide-react'
+import { useRouter, useSearchParams } from 'next/navigation'
 import { useForm } from 'react-hook-form'
 import { z } from 'zod'
+import { Button } from '../../components/button'
+import { InputField, InputIcon, InputRoot } from '../../components/input'
 
 const subscriptionSchema = z.object({
   name: z.string().min(2, 'Digite seu nome completo'),
@@ -15,6 +17,9 @@ const subscriptionSchema = z.object({
 type SubscriptionSchema = z.infer<typeof subscriptionSchema>
 
 export function SubscriptionForm() {
+  const router = useRouter()
+  const searchParams = useSearchParams() // Use searchParams para obter o query param
+
   const {
     register,
     handleSubmit,
@@ -23,8 +28,14 @@ export function SubscriptionForm() {
     resolver: zodResolver(subscriptionSchema),
   })
 
-  function onSubscribe(data: SubscriptionSchema) {
-    console.log(data)
+  async function onSubscribe({ name, email }: SubscriptionSchema) {
+    const referrer = searchParams.get('referrer') // Verifica o referrer corretamente na URL
+
+    // Realiza a inscrição com o nome, e-mail e referrer
+    const { subscriberId } = await subscribeToEvent({ name, email, referrer })
+
+    // Após a inscrição, redireciona para a página do convite
+    router.push(`/invite/${subscriberId}`)
   }
 
   return (
@@ -38,9 +49,9 @@ export function SubscriptionForm() {
 
       <div className="space-y-3">
         <div className="space-y-2">
-          <InputRoot>
+          <InputRoot error={!!errors?.name}>
             <InputIcon>
-              <User />
+              <User className="size-6" />
             </InputIcon>
             <InputField
               type="text"
@@ -49,15 +60,17 @@ export function SubscriptionForm() {
             />
           </InputRoot>
 
-          {errors.name && (
-            <p className='text-danger text-xs font-semibold'>{errors.name.message}</p>
+          {errors?.name && (
+            <p className="text-danger font-semibold text-xs">
+              {errors.name.message}
+            </p>
           )}
         </div>
 
         <div className="space-y-2">
-          <InputRoot>
+          <InputRoot error={!!errors?.email}>
             <InputIcon>
-              <Mail />
+              <Mail className="size-6" />
             </InputIcon>
             <InputField
               type="text"
@@ -66,8 +79,10 @@ export function SubscriptionForm() {
             />
           </InputRoot>
 
-          {errors.email && (
-            <p className='text-danger text-xs font-semibold'>{errors.email?.message}</p>
+          {errors?.email && (
+            <p className="text-danger font-semibold text-xs">
+              {errors.email.message}
+            </p>
           )}
         </div>
       </div>
