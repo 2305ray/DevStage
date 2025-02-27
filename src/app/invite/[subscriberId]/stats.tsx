@@ -39,7 +39,7 @@ export async function Stats({ subscriberId }: StatsProps) {
 
       <div className="relative rounded-xl bg-gray-700 border border-gray-600 px-4 py-7 flex flex-col items-center justify-center gap-1">
         <span className="font-heading text-2xl font-semibold text-gray-200 leading-none">
-          {rankingPosition ? <>{rankingPosition}&ordm;</> : '-'}
+          {rankingPosition ? `${rankingPosition}°` : '-'}
         </span>
         <span className="text-sm text-gray-300 leading-none text-center">
           Posição no ranking

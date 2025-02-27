@@ -15,21 +15,21 @@ export async function Ranking() {
       </h2>
 
       <div className="space-y-4">
-        {ranking.map((rank, index) => {
+        {ranking.map((item, index) => {
           const rankingPosition = index + 1
 
           return (
             <div
-              key={rank.id}
+              key={item.id}
               className="relative rounded-xl bg-gray-700 border border-gray-600 p-6 flex flex-col justify-center gap-3"
             >
               <span className="text-sm text-gray-300 leading-none">
                 <span className="font-semibold">{rankingPosition}&ordm;</span> |{' '}
-                {rank.name}
+                {item.name}
               </span>
 
               <span className="font-heading text-2xl font-semibold text-gray-200 leading-none">
-                {rank.score}
+                {item.score}
               </span>
 
               {rankingPosition === 1 && (
