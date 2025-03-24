@@ -22,7 +22,7 @@
 <br>
 
 <div align="center">
-  <img alt="curso gaby" src="../devstage/src/assets/Cover.png" width="50%">
+  <img alt="DevStage" src="https://github.com/2305ray/devstage/blob/master/src/assets/Cover.png" width="90%">
 </div>
 
 ## 🚀 Tecnologias
@@ -51,11 +51,13 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 ## 🔖 Layout
 
 <div align="center">
-  <img alt="curso gaby" src="../devstage/src/assets/layout.png" width="100%">
-  <img alt="curso gaby" src="../devstage/src/assets/desktop-devstage-home.png" width="100%">
-  <img alt="curso gaby" src="../devstage/src/assets/desktop-devstage-indication.png" width="100%">
-  <img alt="curso gaby" src="../devstage/src/assets/mobile-devstage-home.png" width="100%">
-  <img alt="curso gaby" src="../devstage/src/assets/mobile-devstage-indication.png" width="100%">
+  <img alt="curso gaby" src="https://github.com/2305ray/devstage/blob/master/src/assets/desktop-devstage-home.png" width="50%">
+  <img alt="curso gaby" src="https://github.com/2305ray/devstage/blob/master/src/assets/desktop-devstage-indication.png" width="50%">
+</div>
+
+<div align="center" gap="5px">
+  <img alt="curso gaby" src="https://github.com/2305ray/devstage/blob/master/src/assets/mobile-devstage-home.png" width="25%">
+  <img alt="curso gaby" src="https://github.com/2305ray/devstage/blob/master/src/assets/mobile-devstage-indication.png" width="18.3%">
 </div>
 
 
