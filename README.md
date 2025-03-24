@@ -1,11 +1,11 @@
 <h1 align="center"> DevStage </h1>
 
 <p align="center">
-É um projeto de site resposivo de inscrição e indicação para eventos.
-O objetivo do projeto é facilitar o cadastro de usuários, fornecendo uma interface intuitiva e moderna. 
-<br/>
-
+É um projeto de site resposivo de inscrição e indicação para eventos. <br>
+O objetivo do projeto é facilitar o cadastro de usuários, fornecendo uma interface intuitiva e moderna.
 </p>
+
+
 
 <div align="center">
   
