@@ -55,15 +55,14 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
   <img alt="curso gaby" src="https://github.com/2305ray/devstage/blob/master/src/assets/desktop-devstage-indication.png" width="50%">
 </div>
 
-<div align="center" gap="5px">
-  <img alt="curso gaby" src="https://github.com/2305ray/devstage/blob/master/src/assets/mobile-devstage-home.png" width="25%">
+<div align="center">
+  <img alt="curso gaby" src="https://github.com/2305ray/devstage/blob/master/src/assets/mobile-devstage-home.png" width="25%"> 
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <img alt="curso gaby" src="https://github.com/2305ray/devstage/blob/master/src/assets/mobile-devstage-indication.png" width="18.3%">
 </div>
 
 
-## :memo: Licença
 
-Esse projeto está sob a licença MIT.
 
 ---
 
