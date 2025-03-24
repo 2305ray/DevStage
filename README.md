@@ -37,7 +37,7 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - **TypeScript** – Superset do JavaScript que adiciona tipagem estática.
 - **Zod** – Biblioteca para validação de dados.
 - **Lucide** – Biblioteca de ícones SVG flexível e estilizada.
-- **API desenvolvida no evento** – Conecta os dados do usuário ao backend.
+- **API fornecida no evento** – Conecta os dados do usuário ao backend.
 
 
 
