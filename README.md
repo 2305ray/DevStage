@@ -1,7 +1,8 @@
 <h1 align="center"> DevStage </h1>
 
 <p align="center">
-É um projeto de site resposivo de inscrição e indicação para eventos 
+É um projeto de site resposivo de inscrição e indicação para eventos.
+O objetivo do projeto é facilitar o cadastro de usuários, fornecendo uma interface intuitiva e moderna. 
 <br/>
 
 </p>
@@ -25,20 +26,19 @@
   <img alt="DevStage" src="https://github.com/2305ray/devstage/blob/master/src/assets/Cover.png" width="90%">
 </div>
 
+
 ## 🚀 Tecnologias
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-- ReactJs
-- Tailwind
-- Biome
-- JavaScript
-- Typescript
-- NextJs
-- Orval
-- Biblioteca Zod 
-- Lucide (para os icons)
-- API (desenvolvida no evento)
+- **React.js** – Biblioteca para construção da interface do usuário.
+- **Next.js** – Framework para aplicações React com renderização otimizada.
+- **Tailwind CSS** – Biblioteca de estilização para um design moderno e responsivo.
+- **TypeScript** – Superset do JavaScript que adiciona tipagem estática.
+- **Zod** – Biblioteca para validação de dados.
+- **Lucide** – Biblioteca de ícones SVG flexível e estilizada.
+- **API desenvolvida no evento** – Conecta os dados do usuário ao backend.
+
 
 
 ## 💻 Projeto
@@ -48,21 +48,40 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - [Layout](https://www.figma.com/community/file/1471119935944492720)
 - [Rocketseat](https://www.rocketseat.com.br/)
 
-## 🔖 Layout
+## 🎨 Layout
 
+### 💻 **Versão Desktop**
 <div align="center">
-  <img alt="curso gaby" src="https://github.com/2305ray/devstage/blob/master/src/assets/desktop-devstage-home.png" width="50%">
-  <img alt="curso gaby" src="https://github.com/2305ray/devstage/blob/master/src/assets/desktop-devstage-indication.png" width="50%">
+  <img alt="DevStage Home" src="https://github.com/2305ray/devstage/blob/master/src/assets/desktop-devstage-home.png" width="48%">
+  <img alt="DevStage Indication" src="https://github.com/2305ray/devstage/blob/master/src/assets/desktop-devstage-indication.png" width="48%">
 </div>
 
+### 📱 **Versão Mobile**
 <div align="center">
-  <img alt="curso gaby" src="https://github.com/2305ray/devstage/blob/master/src/assets/mobile-devstage-home.png" width="25%"> 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <img alt="curso gaby" src="https://github.com/2305ray/devstage/blob/master/src/assets/mobile-devstage-indication.png" width="18.3%">
+  <img alt="DevStage Mobile Home" src="https://github.com/2305ray/devstage/blob/master/src/assets/mobile-devstage-home.png" width="30%">
+  <img alt="DevStage Mobile Indication" src="https://github.com/2305ray/devstage/blob/master/src/assets/mobile-devstage-indication.png" width="25%">
 </div>
 
+--- 
 
+## 🛠 Como rodar o projeto
 
+1. Clone o repositório:
+   ```bash
+   git clone https://github.com/2305ray/devstage.git
+   ```
+2. Acesse a pasta do projeto:
+   ```bash
+   cd devstage
+   ```
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+4. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm run dev
+   ```
 
 ---
 
