@@ -1,34 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<h1 align="center"> DevStage </h1>
 
-## Getting Started
+<p align="center">
+É um projeto de site resposivo de inscrição e indicação para eventos 
+<br/>
 
-First, run the development server:
+</p>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<div align="center">
+  
+[![Tecnologias](https://img.shields.io/badge/Tecnologias-purple?style=for-the-badge)](#-tecnologias)
+[![Projeto](https://img.shields.io/badge/Projeto-blue?style=for-the-badge)](#-projeto)
+[![Layout](https://img.shields.io/badge/Layout-red?style=for-the-badge)](#-layout)
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+</div>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-## Learn More
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000" >
+</p>
 
-To learn more about Next.js, take a look at the following resources:
+<br>
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<div align="center">
+  <img alt="curso gaby" src="../devstage/src/assets/Cover.png" width="50%">
+</div>
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Tecnologias
 
-## Deploy on Vercel
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- ReactJs
+- Tailwind
+- Biome
+- JavaScript
+- Typescript
+- NextJs
+- Orval
+- Biblioteca Zod 
+- Lucide (para os icons)
+- API (desenvolvida no evento)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## 💻 Projeto
+
+É um projeto desenvolvido pela Rocketseat no NLW Connect
+
+- [Layout](https://www.figma.com/community/file/1471119935944492720)
+- [Rocketseat](https://www.rocketseat.com.br/)
+
+## 🔖 Layout
+
+<div align="center">
+  <img alt="curso gaby" src="../devstage/src/assets/layout.png" width="100%">
+  <img alt="curso gaby" src="../devstage/src/assets/desktop-devstage-home.png" width="100%">
+  <img alt="curso gaby" src="../devstage/src/assets/desktop-devstage-indication.png" width="100%">
+  <img alt="curso gaby" src="../devstage/src/assets/mobile-devstage-home.png" width="100%">
+  <img alt="curso gaby" src="../devstage/src/assets/mobile-devstage-indication.png" width="100%">
+</div>
+
+
+## :memo: Licença
+
+Esse projeto está sob a licença MIT.
+
+---
+
+<p align="center"> Feito com ♥ Rocketseat </p>
+
