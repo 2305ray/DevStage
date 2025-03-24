@@ -68,11 +68,11 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 1. Clone o repositório:
    ```bash
-   git clone https://github.com/2305ray/devstage.git
+   git clone https://github.com/2305ray/DevStage.git
    ```
 2. Acesse a pasta do projeto:
    ```bash
-   cd devstage
+   cd DevStage
    ```
 3. Instale as dependências:
    ```bash
